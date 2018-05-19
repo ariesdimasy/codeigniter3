@@ -13,7 +13,7 @@
                   <div class="row">
                     <div class="col-md-4">
                             <div class="card ">
-                                    <img class="card-img-top" src="img/thumb.jpg">
+                                    <img class="card-img-top" src="<?=base_url("assets/img/thumb.jpg")?>">
                                     <div class="card-body">
                                         <h4 class="card-title"> My Title Post </h4>
                                         <p class="card-text"> Lorem ipsum sit dolor amet puerto roco adios </p>
@@ -23,7 +23,7 @@
         
                     <div class="col-md-4">
                             <div class="card ">
-                                    <img class="card-img-top" src="img/thumb.jpg">
+                                    <img class="card-img-top" src="<?=base_url("assets/img/thumb.jpg")?>">
                                     <div class="card-body">
                                         <h4 class="card-title"> My Title Post </h4>
                                         <p class="card-text"> Lorem ipsum sit dolor amet puerto roco adios </p>
@@ -33,7 +33,7 @@
         
                     <div class="col-md-4">
                             <div class="card ">
-                                    <img class="card-img-top" src="img/thumb.jpg">
+                                    <img class="card-img-top" src="<?=base_url("assets/img/thumb.jpg")?>">
                                     <div class="card-body">
                                         <h4 class="card-title"> My Title Post </h4>
                                         <p class="card-text"> Lorem ipsum sit dolor amet puerto roco adios </p>
@@ -43,7 +43,7 @@
 
                     <div class="col-md-4">
                             <div class="card ">
-                                    <img class="card-img-top" src="img/thumb.jpg">
+                                    <img class="card-img-top" src="<?=base_url("assets/img/thumb.jpg")?>">
                                     <div class="card-body">
                                         <h4 class="card-title"> My Title Post </h4>
                                         <p class="card-text"> Lorem ipsum sit dolor amet puerto roco adios </p>
@@ -53,7 +53,7 @@
 
                     <div class="col-md-4">
                             <div class="card ">
-                                    <img class="card-img-top" src="img/thumb.jpg">
+                                    <img class="card-img-top" src="<?=base_url("assets/img/thumb.jpg")?>">
                                     <div class="card-body">
                                         <h4 class="card-title"> My Title Post </h4>
                                         <p class="card-text"> Lorem ipsum sit dolor amet puerto roco adios </p>
@@ -63,7 +63,7 @@
 
                     <div class="col-md-4">
                             <div class="card ">
-                                    <img class="card-img-top" src="img/thumb.jpg">
+                                    <img class="card-img-top" src="<?=base_url("assets/img/thumb.jpg")?>">
                                     <div class="card-body">
                                         <h4 class="card-title"> My Title Post </h4>
                                         <p class="card-text"> Lorem ipsum sit dolor amet puerto roco adios </p>
