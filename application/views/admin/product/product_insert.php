@@ -3,6 +3,14 @@
     <div class="card col-md-8 mx-auto">
         <div class="card-body">
            <h3> Product Insert </h3>
+
+            <?php 
+                if(!empty($err))
+                {
+                    echo $err;
+                }
+            ?>
+
            <form method='post' action='<?=base_url("index.php/admin/product/insert_process")?>'>
                 <div class='form-group'>
                     <label> Product Title </label>

@@ -24,7 +24,11 @@
                 <td><?=$row["price"]?></td>
                 <td><?=$row["stock"]?></td>
                 <td>
-                    <a href="" class='btn btn-primary text-white'> Edit </a> 
+                    <a href="<?=base_url("index.php/admin/product/product_update/$row[product_id]")?>" class='btn btn-primary text-white'> Edit </a> 
+                    <form onSubmit="return confirm('Are You Sure want to delete <?=$row["product_title"]?> ? ')" method="post" action="<?=base_url("index.php/admin/product/delete_process")?>"> 
+                        <input type="hidden" name="product_id" value="<?=$row["product_id"]?>">
+                        <input value="Delete" type="submit" class="btn btn-danger">  
+                    </form>
                 </td>
             </tr>
             <?php } ?>
